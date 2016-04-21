@@ -1,1 +1,14 @@
 Guia de estilo Ruby
+
+
+Use espaços entre operadores, e pontos de interrogação ('{', '}') depois de virgulas e ponto e virgula
+
+sum = 1 + 2
+a, b = 1, 2
+1 > 2 ? true : false; puts "hi"
+[1, 2, 3].each { |e| puts e }
+
+Não use espaço depois de '(', ou entre parentesis ('[', ']').
+
+some(arg).other
+[1, 2, 3].length
