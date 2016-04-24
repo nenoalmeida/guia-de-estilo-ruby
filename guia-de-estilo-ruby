@@ -12,3 +12,15 @@ Não use espaço depois de '(', ou entre parentesis ('[', ']').
 
 some(arg).other
 [1, 2, 3].length
+
+Identar o resultado do termo "when" 
+
+when song.name == 'Tik Tok'
+  puts "Not again!"
+when song.duration > 120
+  puts "That's really long"
+when Time.now.hour > 21
+  puts "It's time to start coding"
+else
+  song.play
+end
