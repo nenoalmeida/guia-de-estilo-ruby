@@ -24,3 +24,9 @@ when Time.now.hour > 21
 else
   song.play
 end
+
+epoch = case year
+        when 1607..1777 then "Colonial Period"
+        when 1778..1812 then "Early Republic"
+        
+        
