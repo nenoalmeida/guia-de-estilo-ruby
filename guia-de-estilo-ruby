@@ -44,3 +44,9 @@ def do_something
 end
 
 
+
+Use RDoc como uma convenção da documentação (SDoc pode ser usado para gerar melhor mecanismo de busca na documentação).
+Use uma linha vazia para quebrar o metodo para um paragrafo logico
+
+Keep lines to fewer than 80 characters.
+Syntax
