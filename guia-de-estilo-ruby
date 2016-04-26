@@ -50,4 +50,14 @@ Use uma linha vazia para quebrar o metodo para um paragrafo logico
 Mantenha linhas abaixo de 80 caracteres
 
 Sintaxe
-Syntax
+
+use o def entre pasentesis quando houver argumentos. Omita os parenteses quando o metodo nao aceitar nenhum argumento
+def some_method
+  # payload
+end
+
+def method_with_arguments(arg1, arg2)
+  # payload
+end
+Nunca use "for", a menos que voce saiba exatamente o porque. Iteradores devem ser usados em seu lugar
+arr = [1, 2, 3]
