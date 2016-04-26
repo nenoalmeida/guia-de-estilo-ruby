@@ -81,3 +81,11 @@ end
 if some_condition
   # payload
 end
+
+De preferencia aos seus operadores de construção ternaria no lugar de if/then/else/end.  É mais comum e conciso.
+
+# errado
+result = if some_condition then something else something_else end
+
+# correto
+result = some_condition ? something : something_else
