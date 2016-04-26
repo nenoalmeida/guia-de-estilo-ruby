@@ -32,3 +32,15 @@ epoch = case year
 Use uma linha vazia depois de terornar o valor de um metodo
 (a menos que seja apenas uma linha) e uma linha entre as declarações "def".      
         
+    def some_method
+  do_something
+  do_something_else
+
+  result
+end
+
+def do_something
+  result
+end
+
+
