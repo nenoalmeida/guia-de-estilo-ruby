@@ -102,3 +102,13 @@ if some_condition
 else
   something_else
 end
+
+Utilize && e || para expressoes booleanas. Use and ou for para o controle de fluxo
+
+# expressão booleana
+if some_condition && some_other_condition
+  do_something
+end
+
+# fluxo de controle
+document.saved? or document.save!
