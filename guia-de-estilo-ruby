@@ -112,3 +112,6 @@ end
 
 # fluxo de controle
 document.saved? or document.save!
+
+Evite operadores ternarios de multiplas linas, use if/unless no lugar deles.
+De preferencia por modificar o uso de if/unless quando voce tiver uma linha apenas
