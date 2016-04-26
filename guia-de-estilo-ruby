@@ -89,3 +89,16 @@ result = if some_condition then something else something_else end
 
 # correto
 result = some_condition ? something : something_else
+
+Use apenas uma expressão de operador ternario por branch. Isso significa que o operador ternario precisa estar anunhado. Prefira 
+construçoes if/else neses casos.
+
+# errado
+some_condition ? (nested_condition ? nested_something : nested_something_else) : something_else
+
+# correto
+if some_condition
+  nested_condition ? nested_something : nested_something_else
+else
+  something_else
+end
