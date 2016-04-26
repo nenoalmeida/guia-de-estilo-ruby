@@ -115,3 +115,15 @@ document.saved? or document.save!
 
 Evite operadores ternarios de multiplas linas, use if/unless no lugar deles.
 De preferencia por modificar o uso de if/unless quando voce tiver uma linha apenas
+
+# errado
+if some_condition
+  do_something
+end
+
+# correto
+do_something if some_condition
+
+# outra boa opção
+some_condition and do_something
+Favor unless over if for negative conditions (or control flow or)
