@@ -61,3 +61,21 @@ def method_with_arguments(arg1, arg2)
 end
 Nunca use "for", a menos que voce saiba exatamente o porque. Iteradores devem ser usados em seu lugar
 arr = [1, 2, 3]
+
+# errado
+for elem in arr do
+  puts elem
+end
+
+# correto
+array.each { |elem| puts elem }
+Never use then for multi-line if/unless
+# errado
+if some_condition then
+  # payload
+end
+
+# correto
+if some_condition
+  # payload
+end
