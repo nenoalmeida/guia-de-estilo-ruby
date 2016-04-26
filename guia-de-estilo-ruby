@@ -28,5 +28,7 @@ end
 epoch = case year
         when 1607..1777 then "Colonial Period"
         when 1778..1812 then "Early Republic"
-        
+
+Use uma linha vazia depois de terornar o valor de um metodo
+(a menos que seja apenas uma linha) e uma linha entre as declarações "def".      
         
