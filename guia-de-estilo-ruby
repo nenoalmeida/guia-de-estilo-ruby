@@ -173,3 +173,9 @@ A anotação de tecldo que é seguida por dois pointos e espaço, é entao uma n
 
 Se multiplas linhas forem requisitadas para descrever um problema, as linhas subsequentes deves ser identadas com 2 espaços
 apos o #
+
+ def bar
+  # FIXME: This has crashed occasionally since v3.2.1. It may
+  #   be related to the BarBazUtil upgrade.
+  baz(:quux)
+end
