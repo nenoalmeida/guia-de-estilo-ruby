@@ -127,3 +127,9 @@ do_something if some_condition
 # outra boa opção
 some_condition and do_something
 Favor unless over if for negative conditions (or control flow or)
+
+Inibir parentesis superfulos quando chamamos os metodos, mas mante-lo quando chamamod "funçoes", i.e. Quando voce usa o retorno do valor 
+na mesma linha
+
+x = Math.sin(y)
+array.delete e
