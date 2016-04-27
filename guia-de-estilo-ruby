@@ -160,3 +160,7 @@ result = 1 - \
 result = 1 \
          - 2
 
+Use o retorno de valor = esta correto
+
+if v = array.grep(/foo/) ...
+Use ||= freely.
