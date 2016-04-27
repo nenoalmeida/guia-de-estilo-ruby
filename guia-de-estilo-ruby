@@ -150,3 +150,13 @@ def some_method(some_arr)
   some_arr.size
 end
 
+Evite  linha coninua (\) onde nao requisitado. Na pratica, evite o uso de linha continua como um todo.
+
+# errado
+result = 1 - \
+         2
+
+# correto (mais ainda tá muito feio)
+result = 1 \
+         - 2
+
