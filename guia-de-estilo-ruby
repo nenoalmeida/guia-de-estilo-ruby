@@ -126,7 +126,8 @@ do_something if some_condition
 
 # outra boa opção
 some_condition and do_something
-Favor unless over if for negative conditions (or control flow or)
+De preferencia para o uso do if para conditionais negativas (ou a conditional or)
+
 
 Inibir parentesis superfulos quando chamamos os metodos, mas mante-lo quando chamamod "funçoes", i.e. Quando voce usa o retorno do valor 
 na mesma linha
