@@ -133,3 +133,7 @@ na mesma linha
 
 x = Math.sin(y)
 array.delete e
+
+Prefira {...} no lugar de ...end em blocos de uma linha. Evite usar {...} para blocos de multiplas linhas.
+Always use do...end for "control flow" and "method definitions" (e.g. in Rakefiles and certain DSLs.) Avoid do...end when chaining.
+
