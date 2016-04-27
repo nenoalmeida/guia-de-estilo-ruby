@@ -164,3 +164,12 @@ Use o retorno de valor = esta correto
 
 if v = array.grep(/foo/) ...
 Use ||= freely.
+
+# set name to Bozhidar, only if it's nil or false
+name ||= "Bozhidar"
+
+Evite o uso do estilo Perl em especial nas variaveis ( como $0-9, $, ...).
+A anotação de tecldo que é seguida por dois pointos e espaço, é entao uma nota que descreve um pronlema
+
+Se multiplas linhas forem requisitadas para descrever um problema, as linhas subsequentes deves ser identadas com 2 espaços
+apos o #
