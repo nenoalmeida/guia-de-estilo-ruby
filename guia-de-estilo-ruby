@@ -140,5 +140,13 @@ Sempre use do...end para "controlar o fluxo" e "definir o metodo" (e.g no Rakefi
 
 Evite "return" onde não for requisitado.
 
+# errado
+def some_method(some_arr)
+  return some_arr.size
+end
 
+# correto
+def some_method(some_arr)
+  some_arr.size
+end
 
