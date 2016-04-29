@@ -189,5 +189,7 @@ end
 
 Use TODO para notas de features perdidas ou funcionalidades que deveriam ser adicionadas depois da data
 
-Use TODO to note missing features or functionality that should be added at a later date.
+Use FiXME para notas quebradas de código que precisam ser refeitas
+Use FIXME to note broken code that needs to be fixed.
+
 
