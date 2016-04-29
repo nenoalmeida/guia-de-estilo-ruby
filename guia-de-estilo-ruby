@@ -186,3 +186,8 @@ linha sem nota. Este jeito deve ser uma exceção a regra
 def bar
   sleep 100 # OPTIMIZE
 end
+
+Use TODO para notas de features perdidas ou funcionalidades que deveriam ser adicionadas depois da data
+
+Use TODO to note missing features or functionality that should be added at a later date.
+
