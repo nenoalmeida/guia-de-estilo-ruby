@@ -191,4 +191,13 @@ Use TODO para notas de features perdidas ou funcionalidades que deveriam ser adi
 
 Use FiXME para notas quebradas de código que precisam ser refeitas
 
+Use OPTIMIZE para nominar codigos lentos ou ineficientes que podem causar problemas de performance.
+
+Use HACK para nominar codigos que foram usados com praticas questionaveis e deveriam ser refatorados. 
+
+Use REVIEW para nominar tudo que deveria ser visto para confirmar sua intenção de trabalho. Por exemplo
+
+REVIEW: Are we sure this is how the client does X currently?
+
+Use outra anotação customizada se achar apropriado, mas tenha certeza de documenta-los em seu projeto no README ou similar. 
 
