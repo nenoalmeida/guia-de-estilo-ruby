@@ -19,28 +19,27 @@ _Existem quatro regras_
 Aqui estão as regras:
 
 +
-Classes não podem ser maiores que 100 linhas de codigo.
+Classes não podem ser maiores que 100 linhas de código.
 +
-Methods can be no longer than five lines of code.
+Metodos nao pdoem ser maiores que 5 linhas de código.
 +
-Pass no more than four parameters into a method. Hash options are parameters.
+Não passe mais que quatro parametros en um metodo. Opçoes de hash são parametros.
 +
-Controllers can instantiate only one object. Therefore, views can only know about one instance variable and views should only 
-send messages to that object (@object.collaborator.value is not allowed).
-When to break these rules
+Controllers podem ser instanciados apenas em un objeto. Embora, views possam ser apenas conhecidas por uma variavel instanciada 
+e views podem apenas enviar mensagem para aquele objeto (@object.collaborator.value is not allowed).
+Quando quebrar esa regra
+
+Parafraseando Sandi, "Voce deve quebrar essas regras apenas se seu par deixa-lo". Seu par é quela pessoa que revisa seu codigo,
+a pessoa que voce deve perguntar.
+
+
+Pense nisso como a regra zero. Isso é imutável.
+
+100 linhas de classes
 
 +
-Paraphrasing Sandi, “You should break these rules only if you have a good reason or your pair lets you.” Your pair or 
-the person reviewing your code are the people who you should ask.
-
-+
-Think of this as rule zero. It is immutable.
-
-100-line classes
-
-+
-Despite the large number of private methods we wrote, keeping classes short proved easy. It forced us to consider what 
-the single responsibility of our class was, and what should be extracted.
+A Despeito do grande numero de metodos privados que voce criou, mantendo classes curtas para facilitar. Isso forçou nos a
+considerar que a simples responsabilidade de nossa classe foi, o que deve ser extraída.
 
 +
 This applied to specs as well. In one case, we found a spec file ran over the limit which helped us realize we were testing 
