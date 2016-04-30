@@ -2,15 +2,14 @@
 
 https://robots.thoughtbot.com/sandi-metz-rules-for-developers
 
+Sandi Metz' Regras para Desenvolvedores
 
-Sandi Metz' Rules For Developers
 
 Caleb Thompson  May 17, 2013
-WEB  RUBY
-+
-Back in January, Sandi Metz introduced her rules for developers in a Ruby Rogues podcast episode episode. 
-Around the time Sandi’s rules were published, the team I am on was starting a new project. This post details the experience of 
-that team applying Sandi’s rules to the new application.
+Janeiro, Sandi Metz nos apresenta suas regras para desenvolvedores no episodio de Ruby Rogues.
+No mesmo periodo que Sandi estava publicando o episodio, o time que eu estava iniciava um novo projeto. Este post vai detalhar
+a experiencia do time aplicando as regras de Sandi para a nova aplicação
+
 
 The rules
 
