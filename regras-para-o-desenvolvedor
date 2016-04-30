@@ -10,16 +10,16 @@ Janeiro, Sandi Metz nos apresenta suas regras para desenvolvedores no episodio d
 No mesmo periodo que Sandi estava publicando o episodio, o time que eu estava iniciava um novo projeto. Este post vai detalhar
 a experiencia do time aplicando as regras de Sandi para a nova aplicação
 
+As Regras
 
-The rules
-
- There are four lights.
-_There are four rules._
-+
-Here are the rules:
+Existem quatro luzes
+_Existem quatro regras_
 
 +
-Classes can be no longer than one hundred lines of code.
+Aqui estão as regras:
+
++
+Classes não podem ser maiores que 100 linhas de codigo.
 +
 Methods can be no longer than five lines of code.
 +
