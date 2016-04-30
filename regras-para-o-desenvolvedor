@@ -42,8 +42,8 @@ A Despeito do grande numero de metodos privados que voce criou, mantendo classes
 considerar que a simples responsabilidade de nossa classe foi, o que deve ser extraída.
 
 +
-This applied to specs as well. In one case, we found a spec file ran over the limit which helped us realize we were testing 
-too many features. We split the file into a few, more focused, feature specs.
+Isso se aplica a specs também. Em caso de, encontrarmos um arquivo spec rodando acima do limite que nos ajuda a  realizar
+o que estamos testando muitas features. Nos dividimos o arquivo em pequenas, porem focadas, features specs.
 
 +
 That made us realize that git diffs wouldn’t necessarily show us when we exceed 100 lines.
