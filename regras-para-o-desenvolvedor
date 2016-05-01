@@ -51,13 +51,13 @@ Aquilo nos fez perceber que Git diff seria necessariamente mostrar-nos quando no
 Cinco linhas por método.
 
 +
-Limiting methods to five lines per method is the most interesting rule.
+Limitando métodos a cinco linhas por método é a regrea mais interessante.
 
 +
-We agreed if, else, and end are all lines. In an if block with two branches, each branch could only be one line.
+Nos agregamos if, else, and end em todas as linhas. Em um bloco if com dois branches, cada branch pode ser uma linha.
 
 +
-For example:
+Por Exemplo:
 
 +
 def validate_actor
@@ -68,7 +68,7 @@ def validate_actor
   end
 end
 +
-Five lines ensured that we never use else with elsif.
+Cinco linhas asseguradas que nunca devemos usar else com elsif
 
 +
 Having only one line per branch urged us to use well-named private methods to get work done. Private methods are great 
