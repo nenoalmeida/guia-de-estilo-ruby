@@ -71,13 +71,14 @@ end
 Cinco linhas asseguradas que nunca devemos usar else com elsif
 
 +
-Having only one line per branch urged us to use well-named private methods to get work done. Private methods are great 
-documentation. They need very clear names, which forced us to think about the content of the code we were extracting.
+Tendo apenas uma linha pro branch nos instancia a usar o bom nome dos metodos privados para ter os trabalhos terminados.
+Modos privados são ótima documentaçao. Eles precisam ter nomes muito claros, que nos forçaram a pensar sobre o contesto
+do código que nos extraimos.
 
-Four method arguments
+Quatro argumentos de métodos
 
 +
-The four method arguments rule was particularly challenging in Rails, and particularly in the views.
+quatro metodos de argumentos mandam particularmente no desafio em Rails, e particularmente nas views.
 
 +
 View helpers such as link_to or form_for can end up requiring many parameters to work correctly. While we put some effort 
