@@ -46,9 +46,9 @@ Isso se aplica a specs também. Em caso de, encontrarmos um arquivo spec rodando
 o que estamos testando muitas features. Nos dividimos o arquivo em pequenas, porem focadas, features specs.
 
 +
-That made us realize that git diffs wouldn’t necessarily show us when we exceed 100 lines.
+Aquilo nos fez perceber que Git diff seria necessariamente mostrar-nos quando nos excedermos 100 linhas.
 
-Five lines per method
+Cinco linhas por método.
 
 +
 Limiting methods to five lines per method is the most interesting rule.
