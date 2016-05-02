@@ -87,11 +87,12 @@ into not passing too many arguments, we fell back to Rule 0 and left the paramet
 Only instantiate one object in the controller
 
 +
-This rule raised the most eyebrows before we started the experiment. Often, we needed more than one type of thing on a page.
-For example, a homepage needed both an activity feed and a notification counter.
+Essa regra fes muitas sombrancelhas se erguerem quando experimentamos. De vez em quando, precisamos de mais de uma tipificação 
+na pagina. Por exemplo, a homepage precisa de ambas uma atividade de feed e contador de notificação
+
 
 +
-We solved this using the Facade Pattern. It looked like this:
+Nos resolvemos isso usando o Padrão faciado. E ficou assim:
 
 +
 app/facades/dashboard.rb:
