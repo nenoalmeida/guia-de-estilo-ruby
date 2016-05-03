@@ -144,6 +144,7 @@ The Dashboard class provided a common interface for locating the user’s collab
 state to view partials.
 
 +
+Nos não contando a instancia de variaveiz memorizadas ate  limite. Nos costumavamos 
 We didn’t count instance variables in controller memoizations toward the limit. We used a convention of prefixing unused 
 variables with an underscore to make it clear what is meant to be used in a view:
 
@@ -151,7 +152,7 @@ variables with an underscore to make it clear what is meant to be used in a view
 def calculate
   @_result_of_expensive_calculation ||= SuperCalculator.get_started(thing)
 end
-Great success
+Grande sucesso.
 
 +
 Nos recentiemte concluimos nosso experimentos com sucesso, publicamos nossos resultados em um newsletter, e nos estamos incorporando 
