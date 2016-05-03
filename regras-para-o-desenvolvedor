@@ -78,9 +78,13 @@ do código que nos extraimos.
 Quatro argumentos de métodos
 
 +
-quatro metodos de argumentos mandam particularmente no desafio em Rails, e particularmente nas views.
+Quatro metodos de argumentos mandam particularmente no desafio em Rails, e particularmente nas views.
 
 +
+Helpers da view como link_for ou o form_for  podem terminar requirindo parametros para trabalhar corretamente. Enquanto 
+nos colocarmos forças emnão passar muitos argumentos, nos caimos novamente na regra 0 e deixar os parametros se nos não 
+pudermos achar a melhor maneira de faze-lo
+
 View helpers such as link_to or form_for can end up requiring many parameters to work correctly. While we put some effort 
 into not passing too many arguments, we fell back to Rule 0 and left the parameters if we couldn’t find a better way to do it.
 
