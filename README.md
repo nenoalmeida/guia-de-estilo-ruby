@@ -212,8 +212,8 @@ name ||= "Bozhidar"
 end
 
 
-> Nos casos onde o problema é tao óbvio que a documentação poderia ser redundante, anotaçoes poden ser feitas a esquerda da 
-> linha sem nota. Este jeito deve ser uma exceção a regra
+> Nos casos onde o problema é tao óbvio que a documentação poderia ser redundante, anotaçoes podem 
+>ser feitas a esquerda da linha sem nota. Este jeito deve ser uma exceção a regra
 
 def bar
   sleep 100 - OPTIMIZE
