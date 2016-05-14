@@ -218,7 +218,7 @@ end
 def bar
   sleep 100 - OPTIMIZE
 end
-```sh
+```
 
 > Use TODO para notas de features perdidas ou funcionalidades que deveriam ser adicionadas depois da data
 
