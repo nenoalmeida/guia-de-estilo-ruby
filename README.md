@@ -5,4 +5,4 @@
 
 	Tradução livre de acordo com a minha interpretação sobre o assunto
 
-	Originalmente postado [aqui](http://praxis.scholarslab.org/scratchpad/ruby-style-guide/)
+	Originalmente postado [aqui] (http://praxis.scholarslab.org/scratchpad/ruby-style-guide/)
