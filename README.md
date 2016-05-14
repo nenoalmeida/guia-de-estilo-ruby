@@ -22,6 +22,7 @@ a, b = 1, 2
 
 * Não use espaço depois de '(', ou entre parentesis ('[', ']').
 
+```sh
 some(arg).other
 [1, 2, 3].length
 
@@ -54,67 +55,77 @@ end
 def do_something
   result
 end
-
+```
 
 
 > Use RDoc como uma convenção da documentação (SDoc pode ser usado para gerar melhor mecanismo de busca na documentação).
 > Use uma linha vazia para quebrar o metodo para um paragrafo logico
 > Mantenha linhas abaixo de 80 caracteres
 
-Sintaxe
+# Sintaxe
 
 > use o def entre pasentesis quando houver argumentos. Omita os parenteses quando o metodo nao aceitar nenhum argumento
+
+```sh
 def some_method
-  # payload
+  > payload
+end
+```
+
+```sh
+def method_with_arguments(arg1, arg2)
+  > payload
 end
 
-def method_with_arguments(arg1, arg2)
-  # payload
-end
+```
 > Nunca use "for", a menos que voce saiba exatamente o porque. Iteradores devem ser usados em seu lugar
 arr = [1, 2, 3]
 
-# errado
+```sh
+> errado
 for elem in arr do
   puts elem
 end
-
-# correto
+```
+```sh
+> correto
 array.each { |elem| puts elem }
-
+```
 > nunca use-o para multiplas linhas if/unless
 
-# errado
+```sh
+> errado
 if some_condition then
   # payload
 end
 
-# correto
+> correto
 if some_condition
   # payload
 end
-
+```
 > De preferencia aos seus operadores de construção ternaria no lugar de if/then/else/end.  É mais comum e conciso.
 
-# errado
+```sh
+> errado
 result = if some_condition then something else something_else end
 
-# correto
+> correto
 result = some_condition ? something : something_else
 
 > Use apenas uma expressão de operador ternario por branch. Isso significa que o operador ternario precisa estar anunhado. Prefira 
 construçoes if/else neses casos.
 
-# errado
+> errado
 some_condition ? (nested_condition ? nested_something : nested_something_else) : something_else
 
-# correto
+> correto
 if some_condition
   nested_condition ? nested_something : nested_something_else
 else
   something_else
 end
-
+```
 > Utilize && e || para expressoes booleanas. Use and ou for para o controle de fluxo
 
 # expressão booleana
