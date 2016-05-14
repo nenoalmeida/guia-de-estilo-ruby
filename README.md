@@ -128,58 +128,64 @@ end
 ```
 > Utilize && e || para expressoes booleanas. Use and ou for para o controle de fluxo
 
-# expressão booleana
+> expressão booleana
 if some_condition && some_other_condition
   do_something
 end
 
-# fluxo de controle
+> fluxo de controle
 document.saved? or document.save!
 
 > Evite operadores ternarios de multiplas linas, use if/unless no lugar deles.
 > De preferencia por modificar o uso de if/unless quando voce tiver uma linha apenas
 
-# errado
+```sh
+> errado
 if some_condition
   do_something
 end
 
-# correto
+> correto
 do_something if some_condition
 
-# outra boa opção
+> outra boa opção
 some_condition and do_something
 > De preferencia para o uso do if para conditionais negativas (ou a conditional or)
+```
 
 
 > Inibir parentesis superfulos quando chamamos os metodos, mas mante-lo quando chamamod "funçoes", i.e. Quando voce usa o retorno do valor 
 na mesma linha
 
+```sh
 x = Math.sin(y)
 array.delete e
+```
 
 > Prefira {...} no lugar de do...end em blocos de uma linha. Evite usar {...} para blocos de multiplas linhas.
 Sempre use do...end para "controlar o fluxo" e "definir o metodo" (e.g no Rakefiles e certos DSLs.) Evite do...end quando estiver encadeando
 
 > Evite "return" onde não for requisitado.
 
-# errado
+```sh
+> errado
 def some_method(some_arr)
   return some_arr.size
 end
 
-# correto
+> correto
 def some_method(some_arr)
   some_arr.size
 end
-
+```
 > Evite  linha coninua (\) onde nao requisitado. Na pratica, evite o uso de linha continua como um todo.
 
-# errado
+```sh
+> errado
 result = 1 - \
          2
 
-# correto (mais ainda tá muito feio)
+> correto (mais ainda tá muito feio)
 result = 1 \
          - 2
 
@@ -188,8 +194,9 @@ result = 1 \
 if v = array.grep(/foo/) ...
 Use ||= freely.
 
-# set name to Bozhidar, only if it's nil or false
+> set name to Bozhidar, only if it's nil or false
 name ||= "Bozhidar"
+```
 
 > Evite o uso do estilo Perl em especial nas variaveis ( como $0-9, $, ...).
 > A anotação de tecldo que é seguida por dois pointos e espaço, é entao uma nota que descreve um pronlema
@@ -197,9 +204,10 @@ name ||= "Bozhidar"
 > Se multiplas linhas forem requisitadas para descrever um problema, as linhas subsequentes deves ser identadas com 2 espaços
 > apos o #
 
+```sh
  def bar
-  # FIXME: This has crashed occasionally since v3.2.1. It may
-  #   be related to the BarBazUtil upgrade.
+   FIXME: This has crashed occasionally since v3.2.1. It may
+     be related to the BarBazUtil upgrade.
   baz(:quux)
 end
 
@@ -208,8 +216,9 @@ end
 > linha sem nota. Este jeito deve ser uma exceção a regra
 
 def bar
-  sleep 100 # OPTIMIZE
+  sleep 100 - OPTIMIZE
 end
+```sh
 
 > Use TODO para notas de features perdidas ou funcionalidades que deveriam ser adicionadas depois da data
 
