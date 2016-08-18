@@ -57,7 +57,6 @@ def do_something
 end
 ```
 
-
 > Use RDoc como uma convenção da documentação (SDoc pode ser usado para gerar melhor mecanismo de busca na documentação).
 > Use uma linha vazia para quebrar o metodo para um paragrafo logico
 > Mantenha linhas abaixo de 80 caracteres
@@ -104,7 +103,8 @@ if some_condition
   # payload
 end
 ```
-> De preferencia aos seus operadores de construção ternaria no lugar de if/then/else/end.  É mais comum e conciso.
+
+>De preferencia aos seus operadores de construção ternaria no lugar de if/then/else/end.  É mais comum e conciso.
 
 ```sh
 > errado
